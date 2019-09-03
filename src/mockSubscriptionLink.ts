@@ -8,10 +8,6 @@ export class MockSubscriptionLink extends ApolloLink {
 
   private observer: any
 
-  constructor() {
-    super()
-  }
-
   public request(_req: any) {
     return new Observable<FetchResult>(observer => {
       this.setups.forEach(x => x())

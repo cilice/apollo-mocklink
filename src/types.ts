@@ -1,5 +1,4 @@
 import { GraphQLRequest, FetchResult } from 'apollo-link'
-import { MockedResponse, MockedProviderProps } from './types'
 import { ApolloClient, DefaultOptions, Resolvers } from 'apollo-client'
 import { ApolloCache } from 'apollo-cache'
 import { ApolloLink } from 'apollo-link'
