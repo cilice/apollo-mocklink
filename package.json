@@ -17,7 +17,8 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test",
-    "lint": "tsdx lint ./src ./test"
+    "lint": "tsdx lint ./src ./test",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "fast-json-stable-stringify": "^2.0.0",
