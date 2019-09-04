@@ -1,5 +1,5 @@
 {
-  "name": "apollo-mocklink",
+  "name": "@cilice/apollo-mocklink",
   "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
