@@ -18,7 +18,7 @@
     "build": "tsdx build",
     "test": "tsdx test",
     "lint": "tsdx lint ./src ./test",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {
     "fast-json-stable-stringify": "^2.0.0",
