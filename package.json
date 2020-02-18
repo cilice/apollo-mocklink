@@ -1,6 +1,6 @@
 {
   "name": "@cilice/apollo-mocklink",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/apollo-mocklink.esm.js",
